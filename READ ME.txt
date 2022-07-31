@@ -1,0 +1,13 @@
+This project contains the description of how to make the RFID payment system for shuttle management system 
+
+The project both has a software and a hardware part and this repository folder has a manual name “RFID_MANUAL_LATEST” for easy guide to the entire project project 
+
+Major focus would on this repository would be on the hardware part; furthermore, to get more understanding, check out “Arduino Create Database for RFID Database Security System (donskytech.com)” for detailed description on the hardware congiuration for this project 
+
+Use the "ESP8266 ESP-01 wiring configuration diagram.png" file and the "RFID_System_wiring_diagram.png" to configure both circuit (arduino and esp8266 esp-01) 
+
+Using “Arduino IDE”, configure the hardware using these two images and using the "arduino_code" sketch for the Arduino and the "arduino_esp-01_new" sketch for the esp8266 esp-01 chip 
+
+run the application using the "application.py" 
+
+It should give a false on RFID UID (Unique identifier) that isn't on the "StudentDB" and True for RFID UID that is on the "Student.DB" 
